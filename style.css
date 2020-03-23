@@ -1,3 +1,51 @@
+body{
+    background-size: 100%;
+    background-image: url(./img/wpp.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+    
+}
+
 #livrosVistos{
-    padding-top: 20px;
+    padding-right: 25px;
+    color: black;
+    font-family: 'Bangers';
+
+    width:500px;
+    height:200px;
+    background:#fff;
+    border: solid black;
+    border-color: #3d844b;
+
+    border-width: 3px 3px 5px 5px;
+    border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+#textCenter{
+    transform: rotate(2deg);
+    margin:15px;
+    padding:0 5px;
+    background:#ddd;
+    border:1px solid black;
+    box-shadow:3px 3px 0 black;
+}
+
+#menu2{
+    padding-top: 10px;
+    height: 40px;
+    background-color: #3d844b;
+    font-family: 'Bangers';
+}
+
+#lidosRecentemente{
+    transform: rotate(2deg);
+    margin:15px;
+    padding:0 5px;
+    background:white;
+    border: 10px solid white;
+    box-shadow:3px 3px 0#3d844b;
 }

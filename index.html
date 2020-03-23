@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bangers">
+
     <title>CLivre</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">CLivre</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="font-family: bangers">CLivre</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,43 +32,75 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
-        <div class="row text-center" id="rowNm1" style="background-color: black;">
-            <div class="col-sm">
-                <a href="#categoria"> <button type="button" class="btn btn-black" style="color: white;">Categorias</button></a>
+    <div class="container-fluid" id="menu2" style="padding-bottom: 10px;">
+            <ul style="list-style-type: none;">
+                <div class="row">    
+                    <li class="col-sm"><a href="#categorias.html" style="color: white;"> Categorias</a></li>
+                    <li class="col-sm"><a href="#adicionadosR" style="color: white;">Adicionados recentemente</a></li>
+                    <li class="col-sm"><a href="#lidosR" style="color: white;">Lidos recentemente</button></a></li>
+                    <li class="col-sm"><a href="#favoritos" style="color: white;">Favoritos </a></li>
                 </div>
-            <div class="col-sm">
-                <a href="#Adicionados-recentemente"> <button type="button" class="btn btn-black" style="color: white;">Adicionados recentemente</button></a>
-            </div>
-            <div class="col-sm">
-                <a href="#Lidos-recentemente"> <button type="button" class="btn btn-black" style="color: white;">Lidos recentemente</button> </a>
-            </div>
-            <div class="col-sm">
-                <a href="#favoritos"><button type="button" class="btn btn-black" style="color: white;">Favoritos </button></a>
-            </div>
-        </div>
+            </ul>
     </div>
 
 
-
-    <div class="container-fluid" id="livrosVistos">
-
+    
+    <br>
+    
+    <div class="container" id="livrosVistos">
         <div class="container-fluid">
             <div class="text-center">
-                <h3>Livros lidos</h3>
+                <h3 id="textCenter">Livros lidos</h3>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
-            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
-            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
-            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
+        <ul style="list-style-type: none;">
+            <div class="row text-center">
+                <li class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></li>
+                <li class="col-sm"><a href="#livro2"><img src="./img/capa-livro.png" style="width: 80px;"></a></li>
+                <li class="col-sm"><a href="#livro3"><img src="./img/capa-livro.png" style="width: 80px;"></a></li>
+                <li class="col-sm"><a href="#livro4"><img src="./img/capa-livro.png" style="width: 80px;"></a></li>
+            </div>
+        </ul>
+    </div>
+
+<br><br><br>
+
+    <div class="container" style="color: white;">
+        <div class="row">
+
+            <div class="col">
+                <div class="container" id="lidosRecentemente">
+                    <div class="container-fluid">
+                        <div class="text-center">
+                            <h3 id="textCenter" style="color: black;">Lidos recentemente</h3>
+                        </div>
+                    </div>
+                    <ul style="list-style-type: none;">
+                        <div class="row text-center">
+                            <li class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png";"></a></li>
+                         </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="container" id="lidosRecentemente">
+                    <div class="container-fluid">
+                        <div class="text-center">
+                            <h3 id="textCenter" style="color: black;">Lidos recentemente</h3>
+                        </div>
+                    </div>
+                    <ul style="list-style-type: none;">
+                        <div class="row text-center">
+                            <li class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png";"></a></li>
+                         </div>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <div class="container">
-        
-    </div>
 
 
     <!------------------------------ JQuery -------------------------------->
