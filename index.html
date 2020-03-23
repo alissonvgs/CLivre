@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
-    <!--------------------- CS ---------------------------->
+    <!--------------------- Bootstrap ---------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -31,24 +31,45 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="row" id="rowNm1" style="background-color: black;">
+        <div class="row text-center" id="rowNm1" style="background-color: black;">
             <div class="col-sm">
-                <button type="button" class="btn btn-black" style="color: white;">Categorias</button>
+                <a href="#categoria"> <button type="button" class="btn btn-black" style="color: white;">Categorias</button></a>
+                </div>
+            <div class="col-sm">
+                <a href="#Adicionados-recentemente"> <button type="button" class="btn btn-black" style="color: white;">Adicionados recentemente</button></a>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-black" style="color: white;">Adicionados recentemente</button>
+                <a href="#Lidos-recentemente"> <button type="button" class="btn btn-black" style="color: white;">Lidos recentemente</button> </a>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-black" style="color: white;">Lidos recentemente</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-black" style="color: white;">Favoritos </button>
+                <a href="#favoritos"><button type="button" class="btn btn-black" style="color: white;">Favoritos </button></a>
             </div>
         </div>
     </div>
 
 
-    <!------------------------------ JQUERY -------------------------------->
+
+    <div class="container-fluid" id="livrosVistos">
+
+        <div class="container-fluid">
+            <div class="text-center">
+                <h3>Livros lidos</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
+            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
+            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
+            <div class="col-sm"><a href="#livro1"><img src="./img/capa-livro.png" style="width: 80px;"></a></div>
+        </div>
+    </div>
+
+    <div class="container">
+        
+    </div>
+
+
+    <!------------------------------ JQuery -------------------------------->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
