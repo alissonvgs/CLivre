@@ -22,11 +22,11 @@ body{
 
     border-width: 3px 3px 5px 5px;
     border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
-    transform: rotate(-2deg);
+    transform: rotate(deg);
 }
 
 #textCenter{
-    transform: rotate(2deg);
+    transform: rotate(deg);
     margin:15px;
     padding:0 5px;
     background:#ddd;
@@ -39,6 +39,9 @@ body{
     height: 40px;
     background-color: #3d844b;
     font-family: 'Bangers';
+
+    border-bottom: solid 1px white;
+
 }
 
 #lidosRecentemente{
